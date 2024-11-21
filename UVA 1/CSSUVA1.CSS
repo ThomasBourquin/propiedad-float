@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.column img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.column h2 {
+    text-align: center;
+    color: #333;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #460202;
+    color: #fff;
+    margin-top: 20px;
+}
